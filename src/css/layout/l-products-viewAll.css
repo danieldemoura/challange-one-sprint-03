@@ -1,0 +1,14 @@
+.l-products__view-all {
+    background: url(../../../assets/svg/arrow-back-black.svg) no-repeat right center;
+    color: var(--l-products-view-all-color);
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    padding-right: 2rem;
+}
+
+.l-products__view-all:hover {
+    color: var(--c-product-view-detail-hover-color);
+
+}

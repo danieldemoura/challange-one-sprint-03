@@ -1,0 +1,23 @@
+.l-menu__box {
+    width: 100%;
+    max-width: 113.6rem;
+
+    display: grid;
+    grid-template-columns: auto 2fr 1fr;
+    
+    justify-items: center;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+.l-menu__box.grid {
+    grid-template-columns: auto 2fr;
+    justify-items: right;
+}
+
+@media screen and (min-width: 768px) {
+    .l-menu__box {
+        grid-template-columns: auto 2fr 1fr;
+        justify-items: center;
+    }
+}

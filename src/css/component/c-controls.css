@@ -1,0 +1,9 @@
+.c-controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.6rem;
+
+    padding: 0.8rem;
+    position: absolute;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.l-products__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15.6rem, 1fr));
+    gap: 1.6rem;
+
+    padding-top: 1.6rem;
+}
+
+

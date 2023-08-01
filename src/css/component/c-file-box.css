@@ -1,0 +1,18 @@
+.c-file__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    border: 0.1rem solid #2A7AE4;
+    cursor: pointer;
+
+    height: 4.5rem;
+    max-width: 22.5rem;
+    padding: 1.5rem 2rem;
+    overflow: hidden;
+}
+
+.c-file__box:hover {
+    background-color: var(--c-button-secundary-hover-background-color);
+}

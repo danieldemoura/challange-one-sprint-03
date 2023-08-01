@@ -1,0 +1,11 @@
+.c-product__view-detail {
+    color: var(--c-product-view-detail-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.c-product__view-detail:hover {
+    color: var(--c-product-view-detail-hover-color);
+}

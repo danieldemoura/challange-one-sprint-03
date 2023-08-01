@@ -1,0 +1,34 @@
+.l-menu, .l-header, .l-footer__copyright, 
+.l-login, .l-add-product, .l-products {
+    padding: var(--layout-padding);
+}
+
+.l-footer {
+    padding: 3.2rem 3.2rem 0rem;
+}
+
+.l-login, .l-add-product {
+    background-color: var(--l-login-background-color);
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .l-header, .l-products, 
+    .l-footer__copyright {
+        padding: calc(var(--layout-padding) * 2);
+    }
+
+    .l-menu {
+        padding: 1.6rem 3.2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .l-products {
+        padding: 3.2rem 0rem;
+    }
+
+    .l-add-product {
+        padding: 6.4rem 1.6rem;
+    }
+}

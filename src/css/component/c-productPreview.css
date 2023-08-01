@@ -1,0 +1,6 @@
+@media screen and (min-width: 768px) {
+    .c-product-preview {
+        padding: calc(var(--layout-padding) * 2);
+        
+    }   
+}

@@ -1,0 +1,39 @@
+:root {
+    --color-primary: #2A7AE4;
+    --color-text-primary: #464646;
+    --color-text-secundary: #A2A2A2;
+
+    --button-padding: 1.2rem 1.6rem;
+    --c-button-primary-background-color: var(--color-primary);
+    --c-button-primary-hover-background-color: #5595E9;
+    --c-button-secundary-border-color: var(--color-primary);
+    --c-button-secundary-hover-background-color: #D4E4FA;
+
+    --c-product-name-color: var(--color-text-primary);
+    --c-product-price-color: var(--color-text-primary);
+    --c-product-view-detail-color: var(--color-primary);
+    --c-product-view-detail-hover-color: #0000ff;
+    --c-product-code-color: var(--color-text-primary);
+
+    --c-list-link-color: var(--color-text-primary);
+    --c-form-legend-color: var(--color-text-primary);
+    --c-form-label-color: var(--color-text-secundary);
+    
+    --c-search-input-background-color: #F5F5F5;
+    --c-search-input-placeholder-color: var(--color-text-secundary);
+    --c-form-input-background-color: #FFFFFF;
+    --c-info-desc-color: var(--color-text-primary);
+
+    --l-products-title-color: var(--color-text-primary);
+    --l-products-view-all-color: var(--color-primary);
+    --l-footer-background-color: #EAF2FD;
+    --l-footer-copyright-background-color: #FFFFFF;
+    --l-login-background-color: #F5F5F5;
+    --l-login-title-color: var(--color-text-primary);
+
+    --layout-padding: 1.6rem;
+    --layout-background-color: #FFFFFF;
+
+    --input-valid-color: var(--color-primary);
+    --input-invalid-color: red;
+}

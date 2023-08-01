@@ -1,0 +1,29 @@
+.c-form__input {
+    width: 100%;
+    height: 5.6rem;
+
+    border: none;
+    border-radius: 4px;
+    border-bottom: 0.1rem solid #C8C8C8;
+    background: var(--c-form-input-background-color);
+    
+    font-size: 1.6rem;
+    padding: 1.8rem 1.2rem 0.8rem;
+}
+
+.c-form__input:focus + .c-form__label,
+.c-form__input:valid + .c-form__label {
+    font-size: 1.2rem;
+    top: 0.8rem;
+}
+
+
+.c-form__input:focus + .c-form__label {
+    color: var(--input-valid-color);
+}
+
+.c-form__input:focus {
+    border-bottom: 0.2rem solid var(--input-valid-color);
+}
+
+

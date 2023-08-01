@@ -1,0 +1,10 @@
+@media screen and (min-width: 1200px) {
+    .l-dashboard {
+        padding-top: 6.4rem;
+        padding-bottom: 6.4rem;
+    }
+    
+    .l-dashboard .l-products__wrapper {
+        row-gap: 6.4rem;
+    }
+}

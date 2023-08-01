@@ -1,0 +1,19 @@
+.c-list {
+    list-style: none;
+    font-size: 1.6rem;
+
+    display: grid;
+    gap: 1.6rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .c-list {
+        grid-area: ul;
+        gap: 2.4rem;
+
+        text-align: left;
+        margin-top: 1.6rem;
+
+    }
+}

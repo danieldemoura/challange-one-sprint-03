@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtakuChina</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <nav class="l-menu">
+        <div class="l-menu__box">
+            <h1>
+                <a href="index.html"><img class="c-logo" src="./assets/svg/logo.svg" alt="Logo da AluraGeek"></a>
+            </h1>
+            <a class="c-button-secundary" href="./src/pages/login.html">Login</a>
+            <div class="c-search">
+                <input class="c-search__input" data-search type="search" placeholder="O que deseja encontrar?" aria-label="Campo de pesquisa de produto">
+                <img class="c-search__icon" data-btn-search src="./assets/svg/search.svg" alt="Imagem de uma lupa">
+            </div>
+        </div>
+    </nav>
+    <header class="l-header">
+        <div class="c-headline">
+            <h2 class="c-headline__title">Dias dos Namorados</h2>
+            <p class="c-headline__description">Todos os produtos da loja com 30% de desconto</p>
+            <a class="c-button-primary" href="#acessorios">Ver Acessórios</a>
+        </div>
+    </header>
+    <main class="l-main">
+        <section class="l-products" data-section>
+            <header class="l-products__header">
+                <h2 class="l-products__title" data-header-title="Action Figure"></h2>
+                <span class="l-products__view-all js-view-more">Ver tudo</span>
+            </header>
+            <div class="l-products__wrapper" data-list-products="Action Figure">
+            </div>
+        </section>
+        <section class="l-products" data-section>
+            <header class="l-products__header">
+                <h2 class="l-products__title" id="acessorios" data-header-title="Acessórios"></h2>
+                <span class="l-products__view-all js-view-more">Ver tudo</span>
+            </header>
+            <div class="l-products__wrapper" data-list-products="Acessórios">
+            </div>
+        </section>
+        <section class="l-products" data-section>
+            <header class="l-products__header">
+                <h2 class="l-products__title" data-header-title="Mousepad"></h2>
+                <span class="l-products__view-all js-view-more">Ver tudo</span>
+            </header>
+            <div class="l-products__wrapper" data-list-products="Mousepad">
+            </div>
+        </section>
+    </main>
+    <footer class="l-footer">
+        <div class="l-footer__wrapper">
+            <h3>
+                <img class="c-logo" src="./assets/svg/logo.svg" alt="Logo da AluraGeek">
+            </h3>
+            <ul class="c-list">
+                <li>
+                    <a class="c-list__link" href="#">Quem somos nós</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Política de privacidade</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Programa fidelidade</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Nossas lojas</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Quero ser franqueado</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Anuncie aqui</a>
+                </li>
+            </ul>
+            <form target="_blank" class="c-form js-form" action="https://formsubmit.co/se1vdnrje@mozmail.com" method="POST">
+                <fieldset class="c-form__group">
+                    <legend class="c-form__legend">Fale conosco</legend>
+                    <div class="c-form__box">
+                        <input class="c-form__input js-input" id="name" name="name" type="text" minlength="3" maxlength="40" required autocomplete="off">
+                        <label class="c-form__label" for="name">Nome</label>
+                        <span class="c-form__msg-error js-warning"></span>
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                    <div class="c-form__box">
+                        <textarea class="c-form__message js-input" name="message" maxlength="120" id="message" minlength="5" required></textarea>
+                        <label class="c-form__label" for="message">Escreva a sua mensagem</label>
+                        <span class="c-form__msg-error js-warning"></span>
+                    </div>
+                    <button class="c-button-primary" type="submit">Enviar mensagem</button>
+                </fieldset>
+            </form>
+        </div>
+        <p class="l-footer__copyright">Desenvolvido by Daniel <br/> 2023</p>
+    </footer>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>

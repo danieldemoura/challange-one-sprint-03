@@ -1,0 +1,86 @@
+/* Importando estilos base */
+@import url(./src/css/base/normalize.css);
+@import url(./src/css/base/reset.css);
+@import url(./src/css/base/variables.css);
+@import url(./src/css/base/layout.css);
+
+
+/* Importando estilos de layouts */
+@import url(./src/css/layout/l-menu.css);
+@import url(./src/css/layout/l-menu-box.css);
+@import url(./src/css/layout/l-header.css);
+@import url(./src/css/layout/l-main.css);
+@import url(./src/css/layout/l-products.css);
+@import url(./src/css/layout/l-dashboard.css);
+@import url(./src/css/layout/l-products-header.css);
+@import url(./src/css/layout/l-products-title.css);
+@import url(./src/css/layout/l-products-viewAll.css);
+@import url(./src/css/layout/l-products-wrapper.css);
+@import url(./src/css/layout/l-footer.css);
+@import url(./src/css/layout/l-footer-wrapper.css);
+@import url(./src/css/layout/l-footer-copyright.css);
+@import url(./src/css/layout/l-login.css);
+@import url(./src/css/layout/l-addProduct.css);
+
+/* Importando estilos de componentes */
+@import url(./src/css/component/c-search.css);
+@import url(./src/css/component/c-logo.css);
+@import url(./src/css/component/c-search-input.css);
+@import url(./src/css/component/c-search-icon.css);
+@import url(./src/css/component/c-button-secundary.css);
+@import url(./src/css/component/c-headline.css);
+@import url(./src/css/component/c-headline-title.css);
+@import url(./src/css/component/c-headline-description.css);
+@import url(./src/css/component/c-button-primary.css);
+@import url(./src/css/component/c-product.css);
+@import url(./src/css/component/c-product-wrapper.css);
+@import url(./src/css/component/c-product-image.css);
+@import url(./src/css/component/c-product-info.css);
+@import url(./src/css/component/c-product-name.css);
+@import url(./src/css/component/c-product-price.css);
+@import url(./src/css/component/c-product-viewDetail.css);
+@import url(./src/css/component/c-product-code.css);
+@import url(./src/css/component/c-list.css);
+@import url(./src/css/component/c-list-link.css);
+@import url(./src/css/component/c-form.css);
+@import url(./src/css/component/c-form-group.css);
+@import url(./src/css/component/c-form-legend.css);
+@import url(./src/css/component/c-form-box.css);
+@import url(./src/css/component/c-form-label.css);
+@import url(./src/css/component/c-form-input.css);
+@import url(./src/css/component/c-form-select.css);
+@import url(./src/css/component/c-file.css);
+@import url(./src/css/component/c-file-ou.css);
+@import url(./src/css/component/c-file-img.css);
+@import url(./src/css/component/c-file-productImage.css);
+@import url(./src/css/component/c-file-box.css);
+@import url(./src/css/component/c-file-span.css);
+@import url(./src/css/component/c-file-input.css);
+
+@import url(./src/css/component/c-form-message.css);
+@import url(./src/css/component/c-form-msgError.css);
+@import url(./src/css/component/c-form-sign-up.css);
+@import url(./src/css/component/c-login.css);
+@import url(./src/css/component/c-login-title.css);
+@import url(./src/css/component/c-new-product.css);
+@import url(./src/css/component/c-new-product-title.css);
+@import url(./src/css/component/c-productPreview.css);
+@import url(./src/css/component/c-productPreview-wrapper.css);
+@import url(./src/css/component/c-productPreview-img.css);
+@import url(./src/css/component/c-info.css);
+@import url(./src/css/component/c-info-name.css);
+@import url(./src/css/component/c-info-price.css);
+@import url(./src/css/component/c-info-desc.css);
+@import url(./src/css/component/c-controls.css);
+@import url(./src/css/component/c-controls-img.css);
+@import url(./src/css/component/c-modal.css);
+@import url(./src/css/component/c-modal-header.css);
+@import url(./src/css/component/c-modal-content.css);
+@import url(./src/css/component/c-modal-image.css);
+@import url(./src/css/component/c-modal-buttons.css);
+
+
+/* Importando estilos de state */
+@import url(./src/css/state/is-hidden.css);
+@import url(./src/css/state/is-hidden.css);
+@import url(./src/css/state/is-dragOver.css);

@@ -1,0 +1,5 @@
+.c-info__price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--c-product-price-color);
+}

@@ -1,0 +1,16 @@
+.l-products__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+
+.l-products__header .c-button-primary {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1.6rem;
+}
+
+

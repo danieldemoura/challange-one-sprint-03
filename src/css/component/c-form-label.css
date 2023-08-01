@@ -1,0 +1,16 @@
+.c-form__label {
+    position: absolute;
+    top: 1.6rem;
+    left: 1.2rem;
+
+    color: var(--c-form-label-color);
+    font-weight: 400;
+    font-size: 1.6rem;
+    pointer-events: none;
+    transition: all 0.3s linear;
+}
+
+.c-form__label[for="name"] {
+    top: 2rem;
+}
+

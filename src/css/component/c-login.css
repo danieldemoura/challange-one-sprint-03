@@ -1,0 +1,21 @@
+.c-login {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    width: 84%;
+    max-width: 42.3rem;
+    margin: 0 auto;
+}
+
+.c-login .c-button-primary {
+    width: 10.9rem;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .c-login .c-button-primary {
+        width: 100%;
+    }
+}

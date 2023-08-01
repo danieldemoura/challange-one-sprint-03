@@ -1,0 +1,5 @@
+.c-new-product__title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--l-login-title-color);
+}

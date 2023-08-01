@@ -1,0 +1,4 @@
+.c-product__info {
+    display: grid;
+    gap: 0.8rem;
+}

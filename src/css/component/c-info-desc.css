@@ -1,0 +1,10 @@
+.c-info__desc {
+    font-size: 1.4rem;
+    color: var(--c-info-desc-color);
+}
+
+@media screen and (min-width: 1200px) {
+    .c-info__desc {
+        font-size: 1.6rem;
+    }
+}

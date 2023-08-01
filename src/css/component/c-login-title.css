@@ -1,0 +1,12 @@
+.c-login__title {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--l-login-title-color);
+}
+
+@media screen and (min-width: 1200px) {
+    .c-login__title {
+        font-size: 1.8rem;
+    }
+}

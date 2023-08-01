@@ -1,0 +1,8 @@
+.is-drag-over {
+    border: 0.2rem dashed var(--c-button-primary-background-color);
+    background-color: #c5deff;
+}
+
+.is-drag-over p {
+    color: black;
+}

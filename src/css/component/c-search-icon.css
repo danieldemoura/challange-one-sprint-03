@@ -1,0 +1,20 @@
+.c-search__icon {
+    cursor: pointer;
+    filter: invert(1);
+}
+
+
+@media screen and (min-width: 768px) {
+    .c-search__icon {
+        filter: invert(0);
+        position: absolute;
+        top: 0.5rem;
+        right: 1.6rem;
+    }
+
+    .c-search__icon:hover {
+        filter: invert(1);
+    }
+    
+}
+

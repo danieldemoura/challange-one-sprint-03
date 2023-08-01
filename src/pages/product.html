@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../../assets/favicon.png">
+    <link rel="stylesheet" href="../../main.css">
+</head>
+<body>
+    <nav class="l-menu">
+        <div class="l-menu__box grid">
+            <h1>
+                <a href="../../index.html"><img class="c-logo" src="../../assets/svg/logo.svg" alt="Logo da AluraGeek"></a>
+            </h1>
+            <div class="c-search">
+                <input class="c-search__input" type="search" placeholder="O que deseja encontrar?" aria-label="Campo de pesquisa de produto">
+                <img class="c-search__icon" src="../../assets/svg/search.svg" alt="Imagem de uma lupa">
+            </div>
+        </div>
+    </nav>
+    <main class="l-main ">
+        <article class="c-product-preview js-product">
+        </article>
+        <section class="l-products">
+            <header class="l-products__header">
+                <h2 class="l-products__title">Produtos similares</h2>
+            </header>
+            <div class="l-products__wrapper js-list-product">
+                <!-- <article class="c-product">
+                    <figure class="c-product__wrapper">
+                        <img class="c-product__image" src="../../assets/images/products/unsplash-01.png" alt="Produto">
+                        <figcaption class="c-product__info">
+                            <h3 class="c-product__name">Produto XYZ</h3>
+                            <span class="c-product__price">R$ 60,00</span>
+                        </figcaption>
+                        <a class="c-product__view-detail" href="#">Ver produto</a>
+                    </figure>
+                </article>
+                <article class="c-product">
+                    <figure class="c-product__wrapper">
+                        <img class="c-product__image" src="../../assets/images/products/unsplash-02.png" alt="Produto">
+                        <figcaption class="c-product__info">
+                            <h3 class="c-product__name">Produto XYZ</h3>
+                            <span class="c-product__price">R$ 60,00</span>
+                        </figcaption>
+                        <a class="c-product__view-detail" href="#">Ver produto</a>
+                    </figure>
+                </article>
+                <article class="c-product">
+                    <figure class="c-product__wrapper">
+                        <img class="c-product__image" src="../../assets/images/products/unsplash-03.png" alt="Produto">
+                        <figcaption class="c-product__info">
+                            <h3 class="c-product__name">Produto XYZ</h3>
+                            <span class="c-product__price">R$ 60,00</span>
+                        </figcaption>
+                        <a class="c-product__view-detail" href="#">Ver produto</a>
+                    </figure>
+                </article>
+                <article class="c-product">
+                    <figure class="c-product__wrapper">
+                        <img class="c-product__image" src="../../assets/images/products/unsplash-04.png" alt="Produto">
+                        <figcaption class="c-product__info">
+                            <h3 class="c-product__name">Produto XYZ</h3>
+                            <span class="c-product__price">R$ 60,00</span>
+                        </figcaption>
+                        <a class="c-product__view-detail" href="#">Ver produto</a>
+                    </figure>
+                </article>
+                <article class="c-product">
+                    <figure class="c-product__wrapper">
+                        <img class="c-product__image" src="../../assets/images/products/unsplash-13.png" alt="Produto">
+                        <figcaption class="c-product__info">
+                            <h3 class="c-product__name">Produto XYZ</h3>
+                            <span class="c-product__price">R$ 60,00</span>
+                        </figcaption>
+                        <a class="c-product__view-detail" href="#">Ver produto</a>
+                    </figure>
+                </article>
+                <article class="c-product">
+                    <figure class="c-product__wrapper">
+                        <img class="c-product__image" src="../../assets/images/products/unsplash-14.png" alt="Produto">
+                        <figcaption class="c-product__info">
+                            <h3 class="c-product__name">Produto XYZ</h3>
+                            <span class="c-product__price">R$ 60,00</span>
+                        </figcaption>
+                        <a class="c-product__view-detail" href="#">Ver produto</a>
+                    </figure>
+                </article>
+            </div> -->
+        </section>
+    </main>
+    <footer class="l-footer">
+        <div class="l-footer__wrapper">
+            <h3>
+                <img class="c-logo" src="../../assets/svg/logo.svg" alt="Logo da AluraGeek">
+            </h3>
+            <ul class="c-list">
+                <li>
+                    <a class="c-list__link" href="#">Quem somos nós</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Política de privacidade</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Programa fidelidade</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Nossas lojas</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Quero ser franqueado</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Anuncie aqui</a>
+                </li>
+            </ul>
+            <form class="c-form">
+                <fieldset class="c-form__group">
+                    <legend class="c-form__legend">Fale conosco</legend>
+                    <div class="c-form__box">
+                        <input class="c-form__input" id="name" type="text" minlength="3" required autocomplete="off">
+                        <label class="c-form__label" for="name">Nome</label>
+                    </div>
+                    <div class="c-form__box">
+                        <textarea class="c-form__message" name="message" id="message" minlength="5" required></textarea>
+                        <label class="c-form__label" for="message">Escreva a sua mensagem</label>
+                    </div>
+                    <button class="c-button-primary" type="submit">Enviar mensagem</button>
+                </fieldset>
+            </form>
+        </div>
+        <p class="l-footer__copyright">Desenvolvido by Daniel <br/> 2023</p>
+    </footer>
+
+    <script type="module" src="../js/renderProduct.js"></script>
+</body>
+</html>

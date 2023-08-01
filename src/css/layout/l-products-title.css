@@ -1,0 +1,4 @@
+.l-products__title {
+    color: var(--l-products-title-color);
+    font-size: 2.2rem;
+}

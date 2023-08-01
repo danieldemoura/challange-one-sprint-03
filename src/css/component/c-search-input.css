@@ -1,0 +1,28 @@
+.c-search__input {
+    display: none;
+    width: 100%;
+
+    border: none;
+    border-radius: 2rem;
+    padding: 0.8rem 4.8rem 0.8rem 1.6rem;
+    background-color: var(--c-search-input-background-color);
+    font-size: 1.4rem;
+}
+
+.c-search__input::placeholder {
+    color: var(--c-search-input-placeholder-color);
+}
+
+.c-search__input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.c-search__input:focus {
+    outline: 0.2rem solid #A2A2A2;
+}
+
+@media screen and (min-width: 768px) {
+    .c-search__input {
+        display: initial;
+    }
+}

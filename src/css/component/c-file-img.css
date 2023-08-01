@@ -1,0 +1,21 @@
+.c-file__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+
+    border: 0.2rem dashed #C8C8C8;
+    background-color: #FFF;
+    width: 28.5rem;
+    height: 15.0rem;
+
+}
+
+.c-file__img p {
+    color: #878787;
+    font-size: 1.6rem;
+    text-align: center;
+
+    max-width: 20.0rem;
+}

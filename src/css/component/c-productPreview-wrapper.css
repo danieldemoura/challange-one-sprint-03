@@ -1,0 +1,21 @@
+.c-product-preview__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 100%;
+    max-width: 113.3rem;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .c-product-preview__wrapper {
+        grid-template-columns: 1.1706fr 2fr;
+        gap: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .c-product-preview__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}

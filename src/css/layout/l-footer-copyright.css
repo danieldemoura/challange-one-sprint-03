@@ -1,0 +1,15 @@
+.l-footer__copyright {
+    font-size: 1.6rem;
+    padding: 3.2rem 0rem;
+    background-color: var(--l-footer-copyright-background-color);
+
+    margin-top: 1.6rem;
+    text-align: center;
+    width: 100vw;
+}
+
+@media screen and (min-width: 1200px) {
+    .l-footer__copyright {
+        margin-top: 3.2rem;
+    }
+}

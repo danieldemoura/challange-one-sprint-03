@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../../assets/favicon.png">
+    <link rel="stylesheet" href="../../main.css">
+</head>
+<body>
+    <nav class="l-menu">
+        <div class="l-menu__box grid">
+            <h1>
+                <a href="../../index.html"><img class="c-logo" src="../../assets/svg/logo.svg" alt="Logo da AluraGeek"></a>
+            </h1>
+            <div class="c-search">
+                <input class="c-search__input" type="search" placeholder="O que deseja encontrar?" aria-label="Campo de pesquisa de produto">
+                <img class="c-search__icon" src="../../assets/svg/search.svg" alt="Imagem de uma lupa">
+            </div>
+        </div>
+    </nav>
+    <main class="l-main">
+        <section class="l-login">
+            <form class="c-login" method="POST" data-login>
+                <legend class="c-login__title">Iniciar Sessão</legend>
+                <div class="c-form__box">
+                    <input class="c-form__input js-input" data-email id="email" type="email" name="email" pattern="\w+@\w+\.\w+" title="exemplo@email.com" required autocomplete="off">
+                    <label class="c-form__label" for="email">Digite o seu email</label>
+                    <span class="c-form__msg-error js-warning"></span>
+                </div>
+                <div class="c-form__box">
+                    <input class="c-form__input js-input" data-password-2 id="password" type="password" name="password" minlength="4" required autocomplete="off">
+                    <label class="c-form__label" for="password">Digite a sua senha</label>
+                    <span class="c-form__msg-error js-warning"></span>
+                </div>
+                <div class="c-form__sign-up">
+                    <p>Não tem uma conta? <a href="./sign-up.html">Criar Conta</a></p>
+                </div>
+                <button class="c-button-primary" type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="l-footer">
+        <div class="l-footer__wrapper">
+            <h3>
+                <img class="c-logo" src="../../assets/svg/logo.svg" alt="Logo da AluraGeek">
+            </h3>
+            <ul class="c-list">
+                <li>
+                    <a class="c-list__link" href="#">Quem somos nós</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Política de privacidade</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Programa fidelidade</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Nossas lojas</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Quero ser franqueado</a>
+                </li>
+                <li>
+                    <a class="c-list__link" href="#">Anuncie aqui</a>
+                </li>
+            </ul>
+            <form target="_blank" class="c-form js-form" action="https://formsubmit.co/se1vdnrje@mozmail.com" method="POST">
+                <fieldset class="c-form__group">
+                    <legend class="c-form__legend">Fale conosco</legend>
+                    <div class="c-form__box">
+                        <input class="c-form__input js-input" id="name" name="name" type="text" minlength="3" maxlength="40" required autocomplete="off">
+                        <label class="c-form__label" for="name">Nome</label>
+                        <span class="c-form__msg-error js-warning"></span>
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                    <div class="c-form__box">
+                        <textarea class="c-form__message js-input" name="message" maxlength="120" id="message" minlength="5" required></textarea>
+                        <label class="c-form__label" for="message">Escreva a sua mensagem</label>
+                        <span class="c-form__msg-error js-warning"></span>
+                    </div>
+                    <button class="c-button-primary" type="submit">Enviar mensagem</button>
+                </fieldset>
+            </form>
+        </div>
+        <p class="l-footer__copyright">Desenvolvido by Daniel <br/> 2023</p>
+    </footer>
+    <script src="../../src/js/login.js" type="module"></script>
+</body>
+</html>

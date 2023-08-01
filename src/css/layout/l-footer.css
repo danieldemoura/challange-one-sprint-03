@@ -1,0 +1,10 @@
+.l-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--l-footer-background-color);
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,5 @@
+.c-file__input {
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+}

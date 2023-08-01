@@ -1,0 +1,8 @@
+.c-form__msg-error {
+    display: block;
+    color: red;
+    font-size: 1.4rem;
+    font-weight: 400;
+
+    /* padding: 0.2rem 0rem 0rem; */
+}

@@ -1,0 +1,13 @@
+.c-form__sign-up {
+    font-size: 1.4rem;
+}
+
+
+.c-form__sign-up a {
+    color: #2A7AE4;
+    font-weight: 600;
+}
+
+.c-form__sign-up a:hover {
+    text-decoration: underline;
+}

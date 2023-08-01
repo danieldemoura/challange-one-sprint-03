@@ -1,0 +1,8 @@
+.c-file__span {
+    color: var(--c-button-primary-background-color);
+    font-size: 1.4rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+

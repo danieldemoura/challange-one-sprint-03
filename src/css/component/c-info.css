@@ -1,0 +1,14 @@
+.c-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+
+    padding: var(--layout-padding);
+}
+
+@media screen and (min-width: 768px) {
+    .c-info {
+        padding: initial;
+    }
+}

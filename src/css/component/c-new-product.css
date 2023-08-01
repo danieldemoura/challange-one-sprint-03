@@ -1,0 +1,13 @@
+.c-new-product {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .c-new-product {
+        max-width: 55.9rem;
+    }
+}

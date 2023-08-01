@@ -1,0 +1,11 @@
+.c-form__legend {
+    color: var(--c-form-legend-color);
+}
+
+.c-form__legend + .c-form__box {
+    margin: 0.8rem 0rem 1.6rem;
+}
+
+.c-form__legend ~ .c-button-primary {
+    margin-top: 0.8rem;
+}

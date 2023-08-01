@@ -1,0 +1,9 @@
+.c-product__name {
+    color: var(--c-product-name-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

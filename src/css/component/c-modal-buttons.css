@@ -1,0 +1,6 @@
+.c-modal__buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
